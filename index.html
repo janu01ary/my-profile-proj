@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>나의 프로필</title>
+        <style>
+            @font-face { font-family: 'Cafe24Oneprettynight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff'); font-weight: normal; font-style: normal; }
+            body {
+                font-family: 'Cafe24Oneprettynight';
+                text-align: center;
+            }
+            .top {
+                margin: 100px;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            .top > a {
+                color: rgb(255, 87, 96);
+                font-size: 50pt;
+            }
+            .con {
+                position: fixed;
+                top: 100px;
+                right: 20%;
+                border: 5px solid rgb(0, 145, 39);
+                border-radius: 100px;
+                width: 100px;
+                height: 100px;
+                background-color:rgb(255, 87, 96);
+                font-weight: bold;
+            }
+            .seed1 {
+                position: relative;
+                left: -31px;
+                top: 9px;
+            }
+            .seed2 {
+                position: relative;
+                left: 4px;
+                top: 7px;
+            }
+            .seed3 {
+                position: relative;
+                left: -25px;
+                top: 10px;
+            }
+            ul li {
+                list-style: none;
+            }
+            table, td, tr {
+                border: 1px solid black;
+                border-collapse: collapse;
+                margin: 100px auto;
+            }
+            td, tr {
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top">
+            <a href="#">나의 프로필</a>
+        </div>
+        <div class="con">
+            <ul>
+                <li class="seed1"><a href="#simple">1</a></li>
+                <li class="seed2"><a href="#favorite">2</a></li>
+                <li class="seed3"><a href="#recent">3</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="simple" id="simple">
+                <table class="simple-table">
+                    <tr>
+                        <td>이름</td>
+                        <td>이지우</td>
+                    </tr>
+                    <tr>
+                        <td>이메일</td>
+                        <td>janu01ary@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>생년월일</td>
+                        <td>1999년 11월 18일</td>
+                    </tr>
+                    <tr>
+                        <td>별자리</td>
+                        <td>전갈자리</td>
+                    </tr>
+                    <tr>
+                        <td>출신지</td>
+                        <td>서울</td>
+                    </tr>
+                    <tr>
+                        <td>학교</td>
+                        <td>동덕여자대학교 재학</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="favorite" id="favorite">
+                <table class="favorite-table">
+                    <tr>
+                        <td>좋아하는 음식</td>
+                        <td>만두</td>
+                    </tr>
+                    <tr>
+                        <td>좋아하는 동물</td>
+                        <td>고양이</td>
+                    </tr>
+                    <tr>
+                        <td>좋아하는 유튜브 채널</td>
+                        <td>haha ha</td>
+                    </tr>
+                    <tr>
+                        <td>좋아하는 가수</td>
+                        <td>넬</td>
+                    </tr>
+                    <tr>
+                        <td>좋아하는 예능</td>
+                        <td>무한도전</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="recent" id="recent">
+                <table class="recent-table">
+                    <tr>
+                        <td>최근에 들은 음악</td>
+                        <td>넬 Burn</td>
+                    </tr>
+                    <tr>
+                        <td>최근에 전체 재생한 앨범</td>
+                        <td>나이트오프 마지막 밤</td>
+                    </tr>
+                    <tr>
+                        <td>최근에 한 게임</td>
+                        <td>서든어택</td>
+                    </tr>
+                    <tr>
+                        <td>최근에 꾼 꿈</td>
+                        <td>노트북이 휘고 없는 아이패드가 휘어서 고장나는 꿈</td>
+                    </tr>
+                    <tr>
+                        <td>지금 듣고 있는 앨범</td>
+                        <td>넬 행복했으면 좋겠어</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
